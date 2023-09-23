@@ -8,23 +8,44 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 .card{
     background-color: hsl(0, 0%, 100%);
-    height: 550px;
-    width: 350px;
+    height: 520px;
+    width: 320px;
     display: flex;
     text-align: center;
     flex-direction: column;
     border-radius: 10px;
     gap: 10px;
     box-shadow: inset 0.2px 0.2px 0.2px 0.2px hsl(212, 45%, 89%);
-    border-top: red 30px;
+    border-top:30px;
 }
 
 .container .card .conteudo .images {
     margin: 30px;
-    width: 300px;
+    width: 290px;
+    margin: 12px;
+    margin-bottom: 18px;
     height: 290px;
+    border-radius: 10px;
+   
+}
+
+.container .card .conteudo h1 {
+    font-size: 22px;
+    padding:7px 25px 10px 25px;;
+    gap: 5px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.container .card .conteudo p {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    padding: 10px 25px 10px 25px;
+    color:  hsl(220, 15%, 55%);
 }
