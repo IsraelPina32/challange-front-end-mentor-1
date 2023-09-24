@@ -1,3 +1,17 @@
 @media (max-width: 320px){
+       .container .card  {
+         width: 280px;
+       }
 
+       .container .card .conteudo .images {
+         width: 250px;
+       }
+
+       .container .card .conteudo h1 {
+        font-size: 20px;
+       }
+
+       .container .card .conteudo p {
+        font-size: 14px;
+       }
 }
